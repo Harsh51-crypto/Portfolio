@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+#Header {
+  width: 100%;
+  text-align: center;
+  background-color: #000;
+  padding: 20px 0;
+}
+
+#Language {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 15px;
+}
+
+.head {
+  color: azure;
+}
+
+#Header h3 {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+#Header h3:hover {
+  color: yellow;
+  font-size: 1.2em;
+}
+
+main {
+  padding: 30px;
+}
+
+section {
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 30px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  margin-bottom: 10px;
+  color: #222;
+}
+
+section p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
